@@ -44,38 +44,38 @@ int findSecondLargest(int arr[], int n) {
     return secondLargest;
 }
 
-int main() {
-    int n;
-    cout << "Enter the number of elements in the array: ";
-    cin >> n;
+// int main() {
+//     int n;
+//     cout << "Enter the number of elements in the array: ";
+//     cin >> n;
 
    
-    if (n <= 0) {
-        cout << "Invalid input. Number of elements should be a positive integer." << endl;
-        return 1;
-    }
+//     if (n <= 0) {
+//         cout << "Invalid input. Number of elements should be a positive integer." << endl;
+//         return 1;
+//     }
 
-    int arr[n];
-    cout << "Enter the elements of the array:" << endl;
+//     int arr[n];
+//     cout << "Enter the elements of the array:" << endl;
 
-    for (int i = 0; i < n; ++i) {
-        cin >> arr[i];
-    }
+//     for (int i = 0; i < n; ++i) {
+//         cin >> arr[i];
+//     }
 
-    int secondSmallest = findSecondSmallest(arr, n);
-    int secondLargest = findSecondLargest(arr, n);
+//     int secondSmallest = findSecondSmallest(arr, n);
+//     int secondLargest = findSecondLargest(arr, n);
 
-    if (secondSmallest == -1) {
-        cout << "Second smallest element not found." << endl;
-    } else {
-        cout << "The second smallest element in the array is: " << secondSmallest << endl;
-    }
+//     if (secondSmallest == -1) {
+//         cout << "Second smallest element not found." << endl;
+//     } else {
+//         cout << "The second smallest element in the array is: " << secondSmallest << endl;
+//     }
 
-    if (secondLargest == -1) {
-        cout << "Second largest element not found." << endl;
-    } else {
-        cout << "The second largest element in the array is: " << secondLargest << endl;
-    }
+//     if (secondLargest == -1) {
+//         cout << "Second largest element not found." << endl;
+//     } else {
+//         cout << "The second largest element in the array is: " << secondLargest << endl;
+//     }
 
-    return 0;
-}
+//     return 0;
+// }

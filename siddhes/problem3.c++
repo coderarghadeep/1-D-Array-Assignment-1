@@ -11,28 +11,28 @@ bool isSorted(int arr[], int n) {
     return true;
 }
 
-int main() {
-    int n;
-    cout << "Enter the number of elements in the array: ";
-    cin >> n;
+// int main() {
+//     int n;
+//     cout << "Enter the number of elements in the array: ";
+//     cin >> n;
 
-    if (n <= 0) {
-        cout << "Invalid input. Number of elements should be a positive integer." << endl;
-        return 1;
-    }
+//     if (n <= 0) {
+//         cout << "Invalid input. Number of elements should be a positive integer." << endl;
+//         return 1;
+//     }
 
-    int arr[n];
-    cout << "Enter the elements of the array:" << endl;
+//     int arr[n];
+//     cout << "Enter the elements of the array:" << endl;
 
-    for (int i = 0; i < n; ++i) {
-        cin >> arr[i];
-    }
+//     for (int i = 0; i < n; ++i) {
+//         cin >> arr[i];
+//     }
 
-    if (isSorted(arr, n)) {
-        cout << "The array is sorted in ascending order." << endl;
-    } else {
-        cout << "The array is not sorted in ascending order." << endl;
-    }
+//     if (isSorted(arr, n)) {
+//         cout << "The array is sorted in ascending order." << endl;
+//     } else {
+//         cout << "The array is not sorted in ascending order." << endl;
+//     }
 
-    return 0;
-}
+//     return 0;
+// }

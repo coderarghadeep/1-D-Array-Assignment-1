@@ -10,21 +10,21 @@ int findMissingNumber(int arr[], int n) {
 
     return totalSum - actualSum;
 }
-int main() {
-    int n;
-    cout << "Enter the number of elements in the array: ";
-    cin >> n;
+// int main() {
+//     int n;
+//     cout << "Enter the number of elements in the array: ";
+//     cin >> n;
 
-    int arr[n];
+//     int arr[n];
 
-    cout << "Enter " << n << " distinct numbers in the range [0, " << n << "]:" << endl;
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i];
-    }
+//     cout << "Enter " << n << " distinct numbers in the range [0, " << n << "]:" << endl;
+//     for (int i = 0; i < n; i++) {
+//         cin >> arr[i];
+//     }
 
-    int missingNumber = findMissingNumber(arr, n);
+//     int missingNumber = findMissingNumber(arr, n);
 
-    cout << "The missing number in the range [0, " << n << "] is: " << missingNumber << endl;
+//     cout << "The missing number in the range [0, " << n << "] is: " << missingNumber << endl;
 
-    return 0;
-}
+//     return 0;
+// }

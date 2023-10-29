@@ -29,35 +29,35 @@ void mergeArrays(int arr1[], int size1, int arr2[], int size2, int result[])
     }
 }
 
-int main() {
-    int size1, size2;
+// int main() {
+//     int size1, size2;
 
-    cout << "Enter the size of the first sorted array: ";
-    cin >> size1;
-    int arr1[size1];
+//     cout << "Enter the size of the first sorted array: ";
+//     cin >> size1;
+//     int arr1[size1];
 
-    cout << "Enter the elements of the first sorted array in ascending order:\n";
-    for (int i = 0; i < size1; i++) {
-        cin >> arr1[i];
-    }
+//     cout << "Enter the elements of the first sorted array in ascending order:\n";
+//     for (int i = 0; i < size1; i++) {
+//         cin >> arr1[i];
+//     }
 
-    cout << "Enter the size of the second sorted array: ";
-    cin >> size2;
-    int arr2[size2];
+//     cout << "Enter the size of the second sorted array: ";
+//     cin >> size2;
+//     int arr2[size2];
 
-    cout << "Enter the elements of the second sorted array in ascending order:\n";
-    for (int i = 0; i < size2; i++) {
-        cin >> arr2[i];
-    }
+//     cout << "Enter the elements of the second sorted array in ascending order:\n";
+//     for (int i = 0; i < size2; i++) {
+//         cin >> arr2[i];
+//     }
 
-    int result[size1 + size2];
-    mergeArrays(arr1, size1, arr2, size2, result);
+//     int result[size1 + size2];
+//     mergeArrays(arr1, size1, arr2, size2, result);
 
-    cout << "Merged and sorted array: ";
-    for (int i = 0; i < size1 + size2; i++) {
-        cout << result[i] << " ";
-    }
-    cout << endl;
+//     cout << "Merged and sorted array: ";
+//     for (int i = 0; i < size1 + size2; i++) {
+//         cout << result[i] << " ";
+//     }
+//     cout << endl;
 
-    return 0;
-}
+//     return 0;
+// }

@@ -14,31 +14,31 @@ void leftRotateByOne(int arr[], int n) {
     arr[n - 1] = temp;
 }
 
-int main() {
-    int n;
-    cout << "Enter the number of elements in the array: ";
-    cin >> n;
+// int main() {
+//     int n;
+//     cout << "Enter the number of elements in the array: ";
+//     cin >> n;
 
-    if (n <= 0) {
-        cout << "Array size should be greater than 0." << endl;
-        return 1;
-    }
+//     if (n <= 0) {
+//         cout << "Array size should be greater than 0." << endl;
+//         return 1;
+//     }
 
-    int arr[n];
+//     int arr[n];
 
-    cout << "Enter the array elements: ";
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i];
-    }
+//     cout << "Enter the array elements: ";
+//     for (int i = 0; i < n; i++) {
+//         cin >> arr[i];
+//     }
 
-    leftRotateByOne(arr, n);
+//     leftRotateByOne(arr, n);
 
-    cout << "Array after left rotation by one position: ";
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
-    }
+//     cout << "Array after left rotation by one position: ";
+//     for (int i = 0; i < n; i++) {
+//         cout << arr[i] << " ";
+//     }
 
-    cout << endl;
+//     cout << endl;
 
-    return 0;
-}
+//     return 0;
+// }

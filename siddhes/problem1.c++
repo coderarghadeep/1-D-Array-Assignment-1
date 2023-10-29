@@ -14,26 +14,26 @@ int findLargestElement(int arr[], int n) {
     return largest;
 }
 
-int main() {
-    int n;
-    cout << "Enter the number of elements in the array: ";
-    cin >> n;
+// int main() {
+//     int n;
+//     cout << "Enter the number of elements in the array: ";
+//     cin >> n;
 
-    if (n <= 0) {
-        cout << "Invalid input. Number of elements should be a positive integer." << endl;
-        return 1;
-    }
+//     if (n <= 0) {
+//         cout << "Invalid input. Number of elements should be a positive integer." << endl;
+//         return 1;
+//     }
 
-    int arr[n];
-    cout << "Enter the elements of the array:" << endl;
+//     int arr[n];
+//     cout << "Enter the elements of the array:" << endl;
 
-    for (int i = 0; i < n; ++i) {
-        cin >> arr[i];
-    }
+//     for (int i = 0; i < n; ++i) {
+//         cin >> arr[i];
+//     }
 
-    int largest = findLargestElement(arr, n);
+//     int largest = findLargestElement(arr, n);
 
-    cout << "The largest element in the array is: " << largest << endl;
+//     cout << "The largest element in the array is: " << largest << endl;
 
-    return 0;
-}
+//     return 0;
+// }
